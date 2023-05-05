@@ -11,6 +11,7 @@ const cardElement = data.map(function(item) {
   img = {item.img}
   location = {item.location}
   title = {item.title}
+  link = {item.link}
   />
 })
   

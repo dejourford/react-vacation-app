@@ -3,6 +3,7 @@ export default [
         id:1,
         img: 'public/images/california.jpg',
         location: 'California',
+        link: 'https://goo.gl/maps/hcnxpZMzFLNVL8AFA',
         title: 'Swimming on San Diego Beach',
         date: '01 Jan, 2022 - 05 Jan, 2022',
         description: 'San Diego Beach in California is a great destination spot for tourists. \
@@ -14,6 +15,7 @@ export default [
         id:2,
         img: 'public/images/dubai.jpg',
         location: 'Dubai',
+        link: 'https://goo.gl/maps/7HbN3Q7wRbDq93P39',
         title: 'Visiting Dubai Tower',
         date: '01 Feb, 2022 - 05 Feb, 2022',
         description: 'Dubai is a great destination spot for tourists. It is expensive though! \
@@ -25,6 +27,7 @@ export default [
         id:3,
         img: 'public/images/nyc.jpg',
         location: 'New York City',
+        link: 'https://goo.gl/maps/QJvLRqYapJCzsS6bA',
         title: 'Fashion Week In NYC',
         date: '01 Mar, 2022 - 05 Mar, 2022',
         description: 'New York City is a great destionation spot for Fashion Week. \

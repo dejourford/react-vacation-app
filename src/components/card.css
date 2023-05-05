@@ -1,4 +1,6 @@
-
+a {
+    color: inherit;
+}
 
 .card {
     display: flex;
@@ -26,6 +28,16 @@
     align-items: center;
     gap: 0.5em;
 }
+
+.fa-location-dot {
+    color: red;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
 
 .date {
     font-weight: 800;

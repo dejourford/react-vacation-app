@@ -11,8 +11,9 @@ export default function Card(props) {
                 <div className="card-header">
                     
                     <div className="card-location">
-                        <i className="fa-solid fa-location"></i>
+                        <i className="fa-solid fa-location-dot"></i>
                         <h3>{props.location}</h3>
+                        <a className="locationLink" href={props.link}>View on Google Maps</a>
                     </div>
                     
                     <h1>{props.title}</h1>
