@@ -1,0 +1,40 @@
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 4em 2em;
+    gap: 2em;
+    border-bottom: 2px solid lightgray;
+    width: 75%;
+}
+
+.card-left {
+    width: 25%;
+}
+
+.card-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.card-location {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.date {
+    font-weight: 800;
+}
+
+img {
+    height: 250px;   
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+    box-shadow: 0px 3px 9px rgb(0, 0, 0, 0.5);
+}

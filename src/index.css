@@ -17,3 +17,9 @@ h1, h2, h3, h4 {
   --md-font-weight: 400
   --bd-font-weight: 900
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
